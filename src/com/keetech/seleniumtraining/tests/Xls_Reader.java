@@ -26,8 +26,8 @@ public class Xls_Reader {
 	}
 	
 	public XSSFWorkbook getWorkBook() throws FileNotFoundException, IOException{
-		XSSFWorkbook workbook2 = new XSSFWorkbook(new FileInputStream(new File(excelfilename)));
-		return workbook2;
+		XSSFWorkbook workbook4 = new XSSFWorkbook(new FileInputStream(new File(excelfilename)));
+		return workbook4;
 	}
 	
 	public XSSFSheet getSheetByIndex(XSSFWorkbook workbook, int index){
