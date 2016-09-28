@@ -4,8 +4,8 @@
   <test name="Smoke Tests">
     <groups>
     <!-- <define name="all">
-      	<include name="Regression"></include>
-        <include name="Smoke"></include>
+      	<include name="Smoke"></include>
+        <include name="Regression"></include>
       </define>  -->
       <run>
         <include name="Smoke"></include>
