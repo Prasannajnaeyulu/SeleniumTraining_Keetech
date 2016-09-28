@@ -3,10 +3,10 @@
 <suite  name="Gmail Selenium Tests suite" parallel="classes">
   <test name="Smoke Tests">
     <groups>
-    <!--   <define name="all">
+    <define name="all">
       	<include name="Regression"></include>
         <include name="Smoke"></include>
-      </define> -->
+      </define> 
       <run>
         <include name="Smoke"></include>
       </run>
